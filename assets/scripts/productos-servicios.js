@@ -1,4 +1,4 @@
-const listaProductos = () => fetch("http://localhost:3000/productos").then(respuesta => respuesta.json());
+const listaProductos = () => fetch("http://http://ec2-54-90-107-194.compute-1.amazonaws.com/productos").then(respuesta => respuesta.json());
 
     
 const agregarProducto = (nombre, precio, url, categoria, descripcion) => {
