@@ -4,7 +4,7 @@
   "description": "proyecto ecomerse",
   "main": "script.js",
   "scripts": {
-    "start": "json-server --watchdb.json -p 80"
+    "start": "sudo json-server --watchdb.json -H 0.0.0.0 -p 80"
   },
   "author": "alexis",
   "license": "ISC"
