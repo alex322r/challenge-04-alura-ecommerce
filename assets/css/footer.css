@@ -1,0 +1,121 @@
+.contacto{
+    background-color: #EAF2FD;
+    display: flex;
+    height: 365px;
+    justify-content: center;
+    padding: 64px 0;
+    gap: 112px;
+}
+
+    .img-logo {
+        width: 176px;
+        height: 50px;
+    }
+
+    
+
+    .referencia p{
+        font-size: 26px;
+        font-weight: bolder;
+        color: #2a7ae4;
+        margin-top: 5px;
+        margin-left: 6px;
+    }
+
+    .links-utiles{
+        line-height: 40px;
+        width: 200px;
+        margin-right: 100px;
+    }
+
+    .links-utiles a{
+        color: #464646;
+        font-weight: normal;
+        text-decoration: none;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        width: 560px;
+        height: 240px;
+    }
+
+    .form p{
+        font-weight: 700;
+        font-size: 16px;
+        color: #464646;
+    }
+
+    .form input{
+        width: 560px;
+        height: 56px;
+        border: transparent;
+        border-radius: 4px ;
+        margin-bottom: 20px;
+        padding: 0.5% 2.7%;
+        color: #2a7ae4;
+        border: none;
+        outline: none;
+    }
+
+    .form input:hover{
+        border-bottom: solid 2px #2a7ae4;
+        transition: linear 1s;
+    }
+
+    .label-nombre{
+        width: 100%;
+        position: absolute;
+        color: var(--input-placeholder);
+        top: 80px; left: 9px;
+        transition: 0.5s;                
+        }
+    
+        .input-nombre:focus + .label-nombre{
+        top: 64px;
+        font-size: 14px;
+        z-index: 2;
+        transition: 0.2s; 
+        color: #2a7ae4; 
+        }
+
+    .form textarea{
+        width: 560px;
+        height: 82px;  
+        padding: 16px 0 0 12px;  
+        background: #FFFFFF;
+        border-radius: 4px;
+        border: none;
+        outline: none;
+        resize: none;
+        color: #2a7ae4;
+        font-size: 16px;
+    }
+
+    .form textarea:hover {
+        border-bottom: solid 2px #2a7ae4;
+        transition: linear 1s;
+    }
+
+    .form button{
+        background-color: #2a7ae4;
+        border: none;
+        color: #FFFFFF;
+        width: 144px;
+        height: 51px;
+        cursor: pointer;
+
+    }
+
+
+    .copy {
+        padding: 32px;
+        gap: 10px;
+        height: 102px;
+        background: #FFFFFF;
+        text-align: center;
+
+    }

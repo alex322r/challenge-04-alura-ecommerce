@@ -1,0 +1,42 @@
+{
+  "productos": [
+    {
+      "nombre": "Yoda",
+      "precio": "124",
+      "url": "assets/img/yoda.png",
+      "categoria": "star-wars",
+      "descripcion": "Yoda",
+      "id": 3
+    },
+    {
+      "nombre": "Gameboy Advance",
+      "precio": "345",
+      "url": "assets/img/gba.png",
+      "categoria": "consolas",
+      "descripcion": "Gameboy Advance transparente",
+      "id": 4
+    },
+    {
+      "nombre": "Xbox  Series X",
+      "precio": "499",
+      "url": "assets/img/console.png",
+      "categoria": "consolas",
+      "descripcion": "Consola de videjuegos Xbox series X",
+      "id": 5
+    },
+    {
+      "nombre": "Reloj despertador",
+      "precio": "123",
+      "url": "assets/img/relogio.png",
+      "categoria": "varios",
+      "descripcion": "Rejoj despertador digital color rosa",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "usuario": "admin",
+      "password": "admin"
+    }
+  ]
+}

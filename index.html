@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/todo.css">
+    <link rel="stylesheet" href="./assets/css/top.css">
+    <link rel="stylesheet" href="./assets/css/productos.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="todo">
+    <header class="top">
+        <div class="top__interno">
+            <div class="top__interno__top">
+                <div class="top__interno__top__direita">
+                    <div class="top__interno__top__direita__logo">
+                        <div class="top__interno__top__direita__logo__icon"></div>
+                        <div class="top__interno__top__direita__logo__text"></div>
+                    </div>
+                    <div class="top__interno__top__direita__barra-busqueda">
+                        <input placeholder="¿Que desea buscar?" type="text" class="top__interno__top__direita__barra-busqueda__input">
+                        <div class="top__interno__top__direita__barra-busqueda__button"><img src="./assets/img/Vector.png" alt=""></div>
+                    </div>
+                </div>
+                <button btn-login class="top__interno__top__boton">Login</button>
+            </div>
+        </div>
+        <div class="top__hero">
+            <div class="top__hero__texto">
+                <p class="top__hero__texto__titulo">Febrero Promocional</p>
+                <p class="top__hero__texto__desc">Productos selecionados con 33% de descuento</p>
+                <button class="top__hero__button">Ver Consolas</button>
+            </div> 
+        </div>     
+    </header>
+    
+    <div class="linea__producto">
+        <div class="linea__producto__top">
+            <p class="linea__producto__top__titulo">Star Wars</p>
+            <div class="linea__producto__top__button"><p>Ver todo</p><img src="./assets/img/arrow_back_black_24dp 1.png" alt=""></div>
+        </div>
+        <div class="linea__producto__productos" data-producto1>
+            <!-- <div class="linea__producto__productos__item">
+                <img src="./assets/img/canecasw.png" alt="">
+                <p class="linea__producto__productos__item__title">Producto XYZ</p> 
+                <p class="linea__producto__productos__item__precio">$ 60,00</p>
+                <p class="linea__producto__productos__item__ver">Ver producto</p>
+            </div>  -->
+        </div>
+    </div>
+    <div class="linea__producto">
+        <div class="linea__producto__top">
+            <p class="linea__producto__top__titulo">Consolas</p>
+            <div class="linea__producto__top__button"><p>Ver todo</p><img src="./assets/img/arrow_back_black_24dp 1.png" alt=""></div>
+        </div>
+        <div class="linea__producto__productos " data-producto2>
+            <!-- <div class="linea__producto__productos__item">
+                <img src="./assets/img/canecasw.png" alt="">
+                <p class="linea__producto__productos__item__title">Producto XYZ</p> 
+                <p class="linea__producto__productos__item__precio">$ 60,00</p>
+                <p class="linea__producto__productos__item__ver">Ver producto</p>
+            </div>    -->
+        </div>
+    </div>
+    <div class="linea__producto">
+        <div class="linea__producto__top">
+            <p class="linea__producto__top__titulo">Variedades</p>
+            <div class="linea__producto__top__button"><p>Ver todo</p><img src="./assets/img/arrow_back_black_24dp 1.png" alt=""></div>
+        </div>
+        <div class="linea__producto__productos" data-producto3>
+            <!-- <div class="linea__producto__productos__item">
+                <img src="./assets/img/canecasw.png" alt="">
+                <p class="linea__producto__productos__item__title">Producto XYZ</p> 
+                <p class="linea__producto__productos__item__precio">$ 60,00</p>
+                <p class="linea__producto__productos__item__ver">Ver producto</p>
+            </div>    -->
+        </div>
+    </div>
+    
+    <section class="contacto">
+        <img class="img-logo" src="./assets/img/Logo (2).png" alt="">
+
+        <div class="links-utiles">
+            <a href="">Quienes somos</a> <br>
+            <a href="">Política de Privacidad</a> <br>
+            <a href="">Programa de fidelidad</a> <br>
+            <a href="">Nuetras Tiendas</a> <br>
+            <a href="">Quiero ser franquiciado</a> <br>
+            <a href="">Anuncie aqui</a>
+        </div>
+
+        <div class="form">
+            <p>Hable con nosotros</p>
+                <div class="label-float">
+                  <input type="text" name="Nome" id="Nome" class="input-nombre" placeholder="Nombre">
+                  
+                </div>
+            
+                <textarea placeholder="Escribe un mensaje" name="mensagem" id="msg"></textarea>
+            <button>Enviar Mensaje</button>
+        </div>
+    </section>
+    </div>
+    
+    <section class="copy">
+        <p>Desarrollado por Alexis Rodriguez <br>2022 &copy </p>
+    </section>
+
+    <script src="./script.js"></script>
+    
+    <script type="module" src="./assets/scripts/productos-controller.js"></script>
+</body>
+</html>

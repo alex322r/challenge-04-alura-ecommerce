@@ -1,0 +1,84 @@
+.linha-producto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 1136px;
+    height: 942px;
+    
+    align-self: center;
+}
+
+.linha-producto__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1133px;
+    height: 51px;
+    
+}
+
+.linha-producto__top__title {
+    width: 311px;
+    height: 38px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.linha-producto__top__button {
+    width: 163px;
+    height: 51px;
+    background: #2A7AE4;
+    border: none;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.linha-producto__productos {
+    display: flex;
+    gap: 64px 16px;
+    flex-wrap: wrap;
+}
+
+
+.linha-producto__productos__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 176px;
+    height: 249px;
+}
+
+.linha-producto__productos__item__card {
+    width: 176px;
+    height: 174px;
+    background:  #FFF;
+    position: relative;
+}
+
+.linha-producto__productos__item__card__delete {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 59.09%;
+    top: 4.6%;
+    background-image: url(../img/delete_black_24dp\ \(1\)\ 1.png);
+    background-position: 50%;
+    cursor: pointer;
+    
+}
+
+.linha-producto__productos__item__card__edit {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 81.82%;
+    top: 4.6%;
+    background-image: url(../img/edit_black_24dp\ 1.png);
+    background-position: 50%;
+    cursor: pointer;
+}
+

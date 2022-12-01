@@ -1,0 +1,147 @@
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+}
+
+.top__interno {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    width: 100%;    
+}
+
+.top__interno__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+    width: 1136px;
+    height: 115px;
+    background: #ffffff;
+}
+
+.top__interno__top__direita {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 601px;
+    height: 50px;    
+}
+
+.top__interno__top__direita__logo {
+    display: flex;
+    width: 176px;
+    height: 50px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.top__interno__top__direita__logo__icon {
+    background-image: url(../img/gamepad.svg);
+    width: 50px;
+}
+
+.top__interno__top__direita__logo__text {
+    background-image: url(../img/Texto.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 126px;
+    
+}
+
+.top__interno__top__direita__barra-busqueda {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 393px;
+    height: 40px;
+    background: #F5F5F5;
+    border-radius: 20px;
+}
+
+.top__interno__top__direita__barra-busqueda__input {
+    width: 329px;
+    height: 16px;
+    background: #F5F5F5;
+    border: none;
+    outline: none;
+}
+
+.top__interno__top__direita__barra-busqueda__button {
+    cursor: pointer;
+    width: 17.05px;
+    height: 17.05px;   
+}
+
+.top__interno__top__boton {
+    width: 182px;
+    height: 51px;
+    background: #ffffff;
+    border: 1px solid #2A7AE4;
+    font-size: 16px;
+    color: #2A7AE4;
+    cursor: pointer;
+}
+
+.top__hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+    width: 100%;
+    height: 352px;
+    background: url(https://cdn.masmovil.es/embed/c9369257f50a1dd1d81507a3e61574959272/mensajes-divertidos-buzon-de-voz-geek.jpg);
+    background-position: 40%;
+    background-size: cover;
+}
+
+.top__hero__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 16px;
+    width: 1136px;
+    height: 170px;
+}
+
+.top__hero__texto__titulo {
+    width: 751px;
+    height: 61px;
+    font-weight: 700;
+    font-size: 52px;
+    color: #ffffff;
+}
+
+.top__hero__texto__desc {
+    width: 751px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.top__hero__button {
+    width: 129px;
+    height: 51px;
+    background: #2A7AE4;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
