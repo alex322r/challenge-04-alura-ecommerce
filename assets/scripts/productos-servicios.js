@@ -1,9 +1,11 @@
+// "https://api.alexisrodriguez.tk/productos"
+
 const listaProductos = () => fetch("https://api.alexisrodriguez.tk/productos").then(respuesta => respuesta.json());
 
     
 const agregarProducto = (nombre, precio, url, categoria, descripcion) => {
   
-  return fetch("http://localhost:3000/productos", {
+  return fetch("https://api.alexisrodriguez.tk/productos", {
     method: "POST",
     headers: {
       "Content-Type": "application/json" 
@@ -13,13 +15,13 @@ const agregarProducto = (nombre, precio, url, categoria, descripcion) => {
 };
 
 const eliminarProducto = (id) => {
-  return fetch(`http://localhost:3000/productos/${id}`, { 
+  return fetch(`https://api.alexisrodriguez.tk/productos/${id}`, { 
     method: "DELETE"
   })
 };
 
 const detalleProducto = (id) => {
-  return fetch(`http://localhost:3000/productos/${id}`).then((respuesta) => respuesta.json()
+  return fetch(`https://api.alexisrodriguez.tk/productos/${id}`).then((respuesta) => respuesta.json()
   );
 };
 
