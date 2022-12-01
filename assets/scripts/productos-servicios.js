@@ -1,4 +1,4 @@
-const listaProductos = () => fetch("http://ec2-54-90-107-194.compute-1.amazonaws.com/productos").then(respuesta => respuesta.json());
+const listaProductos = () => fetch("https://api.alexisrodriguez.tk/productos").then(respuesta => respuesta.json());
 
     
 const agregarProducto = (nombre, precio, url, categoria, descripcion) => {
@@ -13,7 +13,7 @@ const agregarProducto = (nombre, precio, url, categoria, descripcion) => {
 };
 
 const eliminarProducto = (id) => {
-  return fetch(`http://localhost:3000/productos/${id}`, {
+  return fetch(`http://localhost:3000/productos/${id}`, { 
     method: "DELETE"
   })
 };
