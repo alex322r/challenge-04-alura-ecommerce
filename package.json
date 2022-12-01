@@ -4,7 +4,7 @@
   "description": "proyecto ecomerse",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "json-server --watchdb.json -p 80"
   },
   "author": "alexis",
   "license": "ISC"
