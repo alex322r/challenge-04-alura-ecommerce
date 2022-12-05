@@ -11,7 +11,7 @@
 
     width: 560px;
     height: 403px;
-    
+    object-fit: cover;
 
 }
 
@@ -97,4 +97,10 @@
 .desc__linea-producto__productos__card__ver {
     font-weight: 700;
     color: #2A7AE4;
+    cursor: pointer;
+   
+}
+
+.desc__linea-producto__productos__card__ver:hover {
+    text-decoration: underline;
 }

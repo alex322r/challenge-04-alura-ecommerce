@@ -31,12 +31,128 @@
       "categoria": "varios",
       "descripcion": "Rejoj despertador digital color rosa",
       "id": 6
+    },
+    {
+      "nombre": "Atari",
+      "precio": "128",
+      "url": "assets/img/atari.png",
+      "categoria": "varios",
+      "descripcion": "Atari es una marca que ha sido propiedad de múltiples empresas desde su creación en 1972. Actualmente es propiedad de Atari Interactive, una filial del holding francés Atari SA, conocido hasta 2002 como Infogrames Entertainment",
+      "id": 7
+    },
+    {
+      "nombre": "Storm trooper head",
+      "precio": "99",
+      "url": "assets/img/canecasw.png",
+      "categoria": "star-wars",
+      "descripcion": "En el universo ficticio de Star Wars, los Stormtroopers o Tropas de Asalto son las tropas de asalto del Imperio Galáctico, aunque también se deriva este nombre a los soldados de la Primera Orden.​ De su nombre proviene la expresión de «efecto Stormtrooper».",
+      "id": 8
+    },
+    {
+      "nombre": "Visor de realiad virtual",
+      "precio": "499",
+      "url": "assets/img/vr.png",
+      "categoria": "varios",
+      "descripcion": "La realidad virtual (RV) es un entorno de escenas y objetos simulados de apariencia real. La acepción más común refiere a un entorno generado mediante tecnología informática, que crea en el usuario la sensación de estar inmerso en él.",
+      "id": 9
+    },
+    {
+      "nombre": "Baby Yoda",
+      "precio": "59",
+      "url": "assets/img/babyyoda.png",
+      "categoria": "star-wars",
+      "descripcion": "Muñeco de Baby Yoda de la serie de Disney \"The Mandalorian\"",
+      "id": 10
+    },
+    {
+      "nombre": "Nintendo Switch",
+      "precio": "399",
+      "url": "assets/img/switch.png",
+      "categoria": "consolas",
+      "descripcion": "Console de videojuegos Nintendo Switch color rojo y azul.",
+      "id": 11
+    },
+    {
+      "nombre": "Stormtropper",
+      "precio": "349",
+      "url": "assets/img/stormtropper.png",
+      "categoria": "star-wars",
+      "descripcion": "En el universo ficticio de Star Wars, los Stormtroopers o Tropas de Asalto son las tropas de asalto del Imperio Galáctico, aunque también se deriva este nombre a los soldados de la Primera Orden.​ De su nombre proviene la expresión de «efecto Stormtrooper».",
+      "id": 12
+    },
+    {
+      "nombre": "Figura de Sonic",
+      "precio": "49",
+      "url": "assets/img/sonic.png",
+      "categoria": "varios",
+      "descripcion": "Figura pequeña de Sonic the Hedgehog",
+      "id": 13
+    },
+    {
+      "nombre": "Super Nintento",
+      "precio": "99",
+      "url": "assets/img/snes.png",
+      "categoria": "consolas",
+      "descripcion": "Consola de videojuegos Super Nintendo",
+      "id": 14
+    },
+    {
+      "nombre": "Ps5",
+      "precio": "499",
+      "url": "assets/img/ps5.png",
+      "categoria": "consolas",
+      "descripcion": "Consola de videojuegos Play station 5",
+      "id": 15
+    },
+    {
+      "nombre": "Pikachu",
+      "precio": "321",
+      "url": "assets/img/pikachu.png",
+      "categoria": "varios",
+      "descripcion": "pikachu xD\n",
+      "id": 16
+    },
+    {
+      "nombre": "The Mandalorian",
+      "precio": "594",
+      "url": "assets/img/mandalorian.png",
+      "categoria": "star-wars",
+      "descripcion": "xD",
+      "id": 17
+    },
+    {
+      "nombre": "Lego Star Wars",
+      "precio": "99",
+      "url": "assets/img/legosw.png",
+      "categoria": "star-wars",
+      "descripcion": "Lego de Star Wars",
+      "id": 18
+    },
+    {
+      "nombre": "Mando Xbox",
+      "precio": "99",
+      "url": "assets/img/jsxbox.png",
+      "categoria": "consolas",
+      "descripcion": "Mando para consolas de videojuegos Xbox",
+      "id": 19
+    },
+    {
+      "nombre": "Camiseta Snes",
+      "precio": "49",
+      "url": "assets/img/camisasnes.png",
+      "categoria": "varios",
+      "descripcion": "Camiste con diseño de Super Nintendo",
+      "id": 20
     }
   ],
   "users": [
     {
       "usuario": "admin",
       "password": "admin"
+    },
+    {
+      "usuario": "alexis",
+      "password": "12345678"
     }
   ]
 }

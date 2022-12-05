@@ -57,6 +57,10 @@
     gap: 8px;
     width: 176px;
     height: 252px;
+    transition: 0.5 ease-in-out;
+}
+.linea__producto__productos__item:hover {
+   transform: scale(1.05);
 }
 
 .linea__producto__productos__item__title {
@@ -81,4 +85,9 @@
     font-weight: 700;
     font-size: 16px;
     color: #2A7AE4;
+    cursor: pointer;
+}
+
+.linea__producto__productos__item__ver:hover {
+    text-decoration: underline;
 }

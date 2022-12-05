@@ -4,12 +4,12 @@ const nuevoProducto = (name, price, imgUrl, id) => {
     const card =document.createElement('div');
     const contenido = `<img src="${imgUrl}">
     <p class="linea__producto__productos__item__title">${name}</p> 
-    <p class="linea__producto__productos__item__precio">${price}</p>
-    <p class="linea__producto__productos__item__ver">Ver producto</p>`;
+    <p class="linea__producto__productos__item__precio">$ ${price}</p>
+    <p link-producto class="linea__producto__productos__item__ver">Ver producto</p>`;
     card.innerHTML = contenido;
     card.classList.add("linea__producto__productos__item")
-    
-    card.addEventListener("click", ()=> {
+    const verProducto = card.querySelector("[link-producto]")
+    verProducto.addEventListener("click", ()=> {
 
         window.location.href = `./descripcion-producto.html?id=${id}`
     })
@@ -46,5 +46,8 @@ const render = async () => {
 }
 render()
 
-
-
+const btnLogin = document.querySelector("[btn-login]")
+console.log(btnLogin)
+btnLogin.addEventListener("click" , () => {
+    window.location.href = "./login.html"
+})

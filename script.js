@@ -1,8 +1,8 @@
-// const btnhome= document.querySelector(".top__interno__top__direita__logo");
+const btnhome= document.querySelector(".top__interno__top__direita__logo");
 
-// btnhome.addEventListener("click" , () => {
-//     window.location.href = "./index.html"
-// })
+btnhome.addEventListener("click" , () => {
+    window.location.href = "./"
+})
 
 
 // const btnLogin = document.querySelector("[btn-login]")

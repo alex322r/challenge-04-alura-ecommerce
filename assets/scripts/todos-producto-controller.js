@@ -1,5 +1,10 @@
 import { productoServicio } from "./productos-servicios.js";
 
+const auth = new Auth()
+
+
+
+
 const todosNuevoProducto = (name, price, imgUrl, id) => {
     const card = document.createElement('div');
     let ids = "#0000"

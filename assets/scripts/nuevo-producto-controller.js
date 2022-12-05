@@ -1,5 +1,6 @@
 import { productoServicio } from "./productos-servicios.js";
 
+const auth = new Auth(); 
 const formulario = document.querySelector("[data-form]");
 
 
