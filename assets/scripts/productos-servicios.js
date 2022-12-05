@@ -1,11 +1,11 @@
-const dbUrl = "https://api.alexisrodriguez.tk/productos"
 
-const listaProductos = () => fetch("http://localhost:3000/productos").then(respuesta => respuesta.json());
+
+const listaProductos = () => fetch("http://api.alexisrodriguez.tk:8080/productos").then(respuesta => respuesta.json());
 
     
 const agregarProducto = (nombre, precio, url, categoria, descripcion) => {
   
-  return fetch("http://localhost:3000/productos", {
+  return fetch("http://api.alexisrodriguez.tk:8080/productos", {
     method: "POST",
     headers: {
       "Content-Type": "application/json" 
@@ -15,18 +15,18 @@ const agregarProducto = (nombre, precio, url, categoria, descripcion) => {
 };
 
 const eliminarProducto = (id) => {
-  return fetch(`http://localhost:3000/productos/${id}`, { 
+  return fetch(`http://api.alexisrodriguez.tk:8080/productos/${id}`, { 
     method: "DELETE"
   })
 };
 
 const detalleProducto = (id) => {
-  return fetch(`http://localhost:3000/productos/${id}`).then((respuesta) => respuesta.json()
+  return fetch(`http://api.alexisrodriguez.tk:8080/productos/${id}`).then((respuesta) => respuesta.json()
   );
 };
 
 const infoUsuario = (nombre) => {
-  return fetch(`http://localhost:3000/users?usuario=${nombre}`).then((respuesta) => respuesta.json()
+  return fetch(`http://api.alexisrodriguez.tk:8080/users?usuario=${nombre}`).then((respuesta) => respuesta.json()
   );
 }
 
